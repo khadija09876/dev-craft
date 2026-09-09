@@ -37,7 +37,7 @@ export default function Navbar() {
     
     // 2. Pricing & Cost
     if (query.match(/(price|cost|charges|budget|fee|rate|how much)/)) {
-      return 'Our project investment varies based on technical complexity, features, and delivery deadlines. We ensure competitive pricing for students and enterprises alike. Please share your project brief at contact.devcraft@gmail.com for an official quotation.';
+      return 'Our project investment varies based on technical complexity, features, and delivery deadlines. We ensure competitive pricing for students and enterprises alike. Please share your project brief at contact.offical.devcrafts@gmail.com for an official quotation.';
     } 
     
     // 3. Tech Stack / Technologies
@@ -47,7 +47,7 @@ export default function Navbar() {
     
     // 4. Contact / Hiring / Email
     if (query.match(/(contact|email|reach|hire|talk|owner|developer|whatsapp|phone)/)) {
-      return 'You can directly collaborate with us via email at **contact.devcraft@gmail.com** or connect with our engineering leads via the direct inquiry form at the bottom of the page.';
+      return 'You can directly collaborate with us via email at **contact.offical.devcrafts@gmail.com** or connect with our engineering leads via the direct inquiry form at the bottom of the page.';
     } 
     
     // 5. Timeline / Delivery
@@ -61,7 +61,7 @@ export default function Navbar() {
     }
 
     // Default Fallback for unmatched technical queries
-    return 'That is a unique requirement! For a detailed architectural analysis and custom implementation roadmap, please email our core team directly at contact.devcraft@gmail.com.';
+    return 'That is a unique requirement! For a detailed architectural analysis and custom implementation roadmap, please email our core team directly at contact.offical.devcrafts@gmail.com.';
   };
 
   const handleQuickOption = (type) => {
